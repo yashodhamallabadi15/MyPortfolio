@@ -1289,6 +1289,11 @@ body {
     padding: 120px 0 60px;
   }
 
+  .hero-text {
+    margin-top: 20px;
+    animation: fadeInUp 0.8s ease-out;
+  }
+
   .title-name {
     font-size: 48px;
   }
@@ -1376,9 +1381,14 @@ body {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 415px) {
   .title-name {
     font-size: 36px;
+  }
+
+  .hero-text {
+    margin-top: 85px;
+    animation: fadeInUp 0.8s ease-out;
   }
 
   .section-title {
